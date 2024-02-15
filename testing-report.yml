@@ -1,0 +1,36 @@
+---#test-case №1
+- summary: |
+    Успешая фильтрация товаров
+  status: pass
+---#test-case №3
+- summary: |
+     Успешное добавление товара в корзину
+  status: pass
+---#test-case №4
+- summary: |
+     Успешный поиск товаров на сайте
+  status: pass
+---#test-case №5
+- summary: |
+     Корректная работа мобильная версии сайта
+  status: fail
+---#test-case №6
+- summary: |
+     Совместимость сайта с последними версиями браузров
+  status: pass
+---#test-case №7
+- summary: |
+     Работоспособность сайта на различных устройствах
+  status: pass
+---#test-case №8
+- summary: |
+     Наличие кнопки возврата из карточки товара
+  status: fail
+---#test-case №9
+- summary: |
+     Успешное формирование заказа в корзине
+  status: fail
+---#test-case №10
+- summary: |
+     Корректное отображение фотографий в карточке товара
+  status: fail
