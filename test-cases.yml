@@ -1,0 +1,139 @@
+---#test-case №1
+- summary: |
+    Успешая фильтрация товаров
+  requirement: |
+    Пользователь должен иметь возможность фильтровать товары
+  prerequisites: |
+    Открыта страницы каталога товаров
+  test-data: |   
+  steps:
+    - Заходим на сайт https://hexlet-products-store.vercel.app/
+    - Ставим в чекбоксе флажок у группы товаров Apple
+  expected-result: |
+    На странице должны отфильтроваться все товары группы Apple
+---#test-case №2
+- summary: |
+     Корректное отображение информации в карточке товара
+  requirement: |
+     Пользователь должен иметь возможность просматривать товары и просматривать подробную информацию о товаре
+  prerequisites:
+    
+  test-data: |
+     
+  steps:
+    - 
+    -  
+    -  
+  expected-result: |
+---#test-case №3
+- summary: |
+     Успешное добавление товара в корзину
+  requirement: |
+     Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины
+  prerequisites:
+    
+  test-data: |
+     
+  steps:
+    - 
+    -  
+    -  
+  expected-result: |
+---#test-case №4
+- summary: |
+     Успешный поиск товаров на сайте
+  requirement: |
+     Пользователь должен иметь возможность искать товары по ключевому слову или категории
+  prerequisites:
+    
+  test-data: |
+     
+  steps:
+    - 
+    -  
+    -  
+  expected-result: |
+---#test-case №5
+- summary: |
+     Корректная работа мобильная версии сайта
+  requirement: |
+     Сайт должен иметь мобильную версию
+  prerequisites:
+    
+  test-data: |
+     
+  steps:
+    - 
+    -  
+    -  
+  expected-result: |
+---#test-case №6
+- summary: |
+     Совместимость сайта с последними версиями браузров
+  requirement: |
+     Сайт должен быть совместим с последними версиями браузеров
+  prerequisites:
+    
+  test-data: |
+     
+  steps:
+    - 
+    -  
+    -  
+  expected-result: |
+---#test-case №7
+- summary: |
+     Работоспособность сайта на различных устройствах
+  requirement: |
+     Сайт должен быть доступен на различных устройствах
+  prerequisites:
+    
+  test-data: |
+     
+  steps:
+    - 
+    -  
+    -  
+  expected-result: |
+---#test-case №8
+- summary: |
+     Наличие кнопки возврата из карточки товара
+  requirement: |
+     Для выхода из карточки товара должна быть кнопка возврата
+  prerequisites:
+    
+  test-data: |
+     
+  steps:
+    - 
+    -  
+    -  
+  expected-result: |
+---#test-case №9
+- summary: |
+     Успешное формирование заказа в корзине
+  requirement: |
+     В корзине должна быть возможность изменить количество товара
+  prerequisites:
+    
+  test-data: |
+     
+  steps:
+    - 
+    -  
+    -  
+  expected-result: |
+---#test-case №10
+- summary: |
+     Корректное отображение фотографий в карточке товара
+  requirement: |
+     У товаров должна быть слайд-панель
+  prerequisites:
+    
+  test-data: |
+     
+  steps:
+    - 
+    -  
+    -  
+  expected-result: |
