@@ -1,4 +1,4 @@
----#bugreport №1
+---
 - summary: |
     Не работает мобильная версии сайта
   environment: |
@@ -9,49 +9,46 @@
   expected-result: |
     Откроется мобильная версия сайта
   actual-result: >
-    На странице выводится ошибка "Сайт m.hexlet-products-store.vercel.app отправил недействительный ответ."
-    
----#bugreport №2
+    На странице выводится ошибка "Сайт
+    m.hexlet-products-store.vercel.app отправил недействительный ответ."
 - summary: |
     Отсутствует кнопка возврата из карточки товара
   environment: |
     Google Chrome Версия 121.0.6167.185 (Официальная сборка), (64 бит)
     ОС Windows 10 Pro
   steps-to-reproduce: >
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
-    2. Нажать на карточку товара
+    1. Зайти на страницу
+    https://hexlet-products-store.vercel.app/ 2. Нажать на карточку товара
   expected-result: |
     В карточке товара есть кнопка выхода на главное меню
   actual-result: |
     Кнопка возврата в главное меню отсутствует
     Выйти можно только через кнопку "назад" в браузере
-
----#bugreport №3
 - summary: |
     Корректное формирование заказа в корзине
   environment: |
     Google Chrome Версия 121.0.6167.185 (Официальная сборка), (64 бит)
     ОС Windows 10 Pro
   steps-to-reproduce: >
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
-    2. Добавить товар в корзину
-    3. Нажать на кнопку "cart"
+    1. Зайти на страницу
+    https://hexlet-products-store.vercel.app/ 2. Добавить товар в корзину 3.
+    Нажать на кнопку "cart"
   expected-result: |
     У товара можно изменить количество
-  actual-result: |
+  actual-result: |+
     У товаров отсутствует кнопка изменения количества
     Ошибка изображена на скриншоте imaged/Снимок.JPG
         
----#bugreport №4
 - summary: |
     Корректное отображение фотографий в карточке товара
   environment: |
     Google Chrome Версия 121.0.6167.185 (Официальная сборка), (64 бит)
     ОС Windows 10 Pro
   steps-to-reproduce: >
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
-    2. Нажать на карточку товара
+    1. Зайти на страницу
+    https://hexlet-products-store.vercel.app/ 2. Нажать на карточку товара
   expected-result: |
     В карточке товара имеется слайд-панель
   actual-result: >
-    В карточке товара слайд-панель отсутствует, фотографии размещены в хаотичном порядке
+    В карточке товара слайд-панель отсутствует, фотографии размещены
+    в хаотичном порядке
