@@ -1,137 +1,136 @@
----#test-case №1
+---
 - summary: |
-    Успешая фильтрация товаров
+    Успешная фильтрация товаров
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
   prerequisites: |
     Открыта страница каталога товаров https://hexlet-products-store.vercel.app/
-  test-data: | 
-  
+  test-data: ""
   steps:
-    - Ставим в чекбоксе "Brand" флажок у группы товаров Apple
+    - Ставим в чек боксе "Brand" флажок у группы товаров Apple
   expected-result: |
     На странице должны отфильтроваться все товары группы Apple
----#test-case №2
+
+---
 - summary: |
-     Корректное отображение информации в карточке товара
-  requirement: |
-     Пользователь должен иметь возможность просматривать товары и просматривать подробную информацию о товаре
-  prerequisites:
-     Открыта страница каталога товаров https://hexlet-products-store.vercel.app/
-  test-data: |
-  
+    Корректное отображение информации в карточке товара
+  requirement: >
+    Пользователь должен иметь возможность просматривать товары и
+    просматривать подробную информацию о товаре
+  prerequisites: Открыта страница каталога товаров https://hexlet-products-store.vercel.app/
+  test-data: ""
   steps:
     - Нажимаем на карточку товара
   expected-result: |
-      Открывается карточка товара с названием, фото, ценой и описанием
----#test-case №3
+    Открывается карточка товара с названием, фото, ценой и описанием
+
+---
 - summary: |
-     Успешное добавление товара в корзину
-  requirement: |
-     Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины
-  prerequisites:
-     Открыта страница каталога товаров https://hexlet-products-store.vercel.app/
-  test-data: |
-  
+    Успешное добавление товара в корзину
+  requirement: >
+    Пользователь должен иметь возможность добавлять товары в корзину и
+    просматривать содержимое корзины
+  prerequisites: Открыта страница каталога товаров https://hexlet-products-store.vercel.app/
+  test-data: ""
   steps:
     - Нажимаем на кнопку "add to cart"
     - Нажимаем на кнопку "cart"
   expected-result: |
-  Пользователь должен увидеть добавленные товары в корзине
----#test-case №4
+    Пользователь должен увидеть добавленные товары в корзине
+
+---
 - summary: |
-     Успешный поиск товаров на сайте
-  requirement: |
-     Пользователь должен иметь возможность искать товары по ключевому слову или категории
-  prerequisites:
-     Открыта страница каталога товаров https://hexlet-products-store.vercel.app/
-  test-data: |
-     
+    Успешный поиск товаров на сайте
+  requirement: >
+    Пользователь должен иметь возможность искать товары по ключевому
+    слову или категории
+  prerequisites: Открыта страница каталога товаров https://hexlet-products-store.vercel.app/
+  test-data: ""
   steps:
     - Вводим в форму "search" ключевое слово "iphone"
     - Выбираем категорию "smartphones"
   expected-result: |
-   Пользователь должен увидеть все отфильтрованные товары
----#test-case №5
+    Пользователь должен увидеть все отфильтрованные товары
+
+---
 - summary: |
-     Корректная работа мобильной версии сайта
+    Корректная работа мобильной версии сайта
   requirement: |
-     Сайт должен иметь мобильную версию
-  prerequisites:
-    
-  test-data: |
-     
+    Сайт должен иметь мобильную версию
+  prerequisites: null
+  test-data: ""
   steps:
     - Переходим на страницу https://m.hexlet-products-store.vercel.app/
   expected-result: |
     Пользователь должен увидеть мобильную версию сайта
----#test-case №6
+
+---
 - summary: |
-     Совместимость сайта с последними версиями браузров
+    Совместимость сайта с последними версиями браузеров
   requirement: |
-     Сайт должен быть совместим с последними версиями браузеров
-  prerequisites:
-    
-  test-data: |
-     
+    Сайт должен быть совместим с последними версиями браузеров
+  prerequisites: null
+  test-data: ""
   steps:
-    - Переходим на страницу https://hexlet-products-store.vercel.app/ через Google Chrome
-    - Переходим на страницу https://hexlet-products-store.vercel.app/ через Safari
-    - Переходим на страницу https://hexlet-products-store.vercel.app/ через Mozilla Firefox
+    - Переходим на страницу https://hexlet-products-store.vercel.app/ через
+      Google Chrome
+    - Переходим на страницу https://hexlet-products-store.vercel.app/ через
+      Safari
+    - Переходим на страницу https://hexlet-products-store.vercel.app/ через
+      Mozilla Firefox
   expected-result: |
-   Страница корректно отображается во всех браузерах
----#test-case №7
+    Страница корректно отображается во всех браузерах
+
+---
 - summary: |
-     Работоспособность сайта на различных устройствах
+    Работоспособность сайта на различных устройствах
   requirement: |
-     Сайт должен быть доступен на различных устройствах
-  prerequisites:
-    
-  test-data: |
-     
+    Сайт должен быть доступен на различных устройствах
+  prerequisites: null
+  test-data: ""
   steps:
-    - Переходим на страницу https://hexlet-products-store.vercel.app/ через устройство на ОС IOS
-    - Переходим на страницу https://hexlet-products-store.vercel.app/ через устройство на ОС Android
-    - Переходим на страницу https://hexlet-products-store.vercel.app/ через планшет
+    - Переходим на страницу https://hexlet-products-store.vercel.app/ через
+      устройство на ОС IOS
+    - Переходим на страницу https://hexlet-products-store.vercel.app/ через
+      устройство на ОС Android
+    - Переходим на страницу https://hexlet-products-store.vercel.app/ через
+      планшет
   expected-result: |
-  Страница корректно отображается на всех устройствах
----#test-case №8
+    Страница корректно отображается на всех устройствах
+
+---
 - summary: |
-     Наличие кнопки возврата из карточки товара
+    Наличие кнопки возврата из карточки товара
   requirement: |
-     Для выхода из карточки товара должна быть кнопка возврата
-  prerequisites:
-     Открыта страница каталога товаров https://hexlet-products-store.vercel.app/
-  test-data: |
-     
+    Для выхода из карточки товара должна быть кнопка возврата
+  prerequisites: Открыта страница каталога товаров https://hexlet-products-store.vercel.app/
+  test-data: ""
   steps:
     - Нажимаем на карточку товара
   expected-result: |
-      В карточке товара присустует кнопка возврата к каталогу товаров
----#test-case №9
+    В карточке товара присутствует кнопка возврата к каталогу товаров
+
+---
 - summary: |
-     Корректное формирование заказа в корзине
+    Корректное формирование заказа в корзине
   requirement: |
-     В корзине должна быть возможность изменить количество товара
-  prerequisites:
-     Открыта страница каталога товаров https://hexlet-products-store.vercel.app/
-  test-data: |
-     
+    В корзине должна быть возможность изменить количество товара
+  prerequisites: Открыта страница каталога товаров https://hexlet-products-store.vercel.app/
+  test-data: ""
   steps:
     - Нажимаем на кнопку "add to cart"
     - Нажимаем на кнопку "cart"
   expected-result: |
-   У каждого товара отображается кнопка изменения количества
----#test-case №10
+    У каждого товара отображается кнопка изменения количества
+
+---
 - summary: |
-     Корректное отображение фотографий в карточке товара
+    Корректное отображение фотографий в карточке товара
   requirement: |
-     У товаров должна быть слайд-панель
-  prerequisites:
-     Открыта страница каталога товаров https://hexlet-products-store.vercel.app/
-  test-data: |
-     
+    У товаров должна быть слайд-панель
+  prerequisites: Открыта страница каталога товаров https://hexlet-products-store.vercel.app/
+  test-data: ""
   steps:
     - Нажимаем на карточку товара
   expected-result: |
-  В карточке товара присутствует галерея слайдов
+    В карточке товара присутствует галерея слайдов
