@@ -1,14 +1,20 @@
 ---
-# Информация о пользователе
 name: Yakovleva Elizaveta # Ваше имя
 job: QA Engineer
 level: junior
 email: yakovleva_0593@mail.ru
-description: |
-  Я начинающий специалист по тестированию ПО. Прохожу курс на платформе hexlet. ) 
-skills: # Список навыков в виде списка
-  - Функциональное тестирование
-  - Написание багрепортов
-  - Linux
-  - Слепая печать
-  - Английский язык C1
+description:
+  I am a novice specialist. I am taking the "Testing Engineer" course on the Hexlet platform.
+skills:
+- Functional testing
+- Manual testing 
+- Work with a bug tracker 
+- Write test cases
+- Test Design Techniques 
+- Touch typing
+- DevTools 
+- Postman
+- Git
+- Linux
+- SQL queries
+- English A2
